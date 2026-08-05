@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+  background: #fff5fa;
+  color: #5b3a4a;
+  text-align: center;
+}
+
+
+header {
+  background: #ffb7d5;
+  padding: 30px;
+}
+
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+
+main {
+  padding: 30px;
+}
+
+
+.welcome,
+.message {
+  background: white;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.menu a {
+  display: block;
+  background: white;
+  padding: 20px;
+  width: 180px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #ff5fa2;
+  font-weight: bold;
+}
+
+
+.menu a:hover {
+  background: #ffe0ed;
+}
+
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: #ffb7d5;
+  color: white;
