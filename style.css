@@ -64,3 +64,89 @@ footer {
   padding: 20px;
   background: #ffb7d5;
   color: white;
+
+.form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:10px;
+
+max-width:400px;
+
+margin:30px auto;
+
+}
+
+.form input{
+
+padding:12px;
+
+border:none;
+
+border-radius:15px;
+
+}
+
+.form button{
+
+padding:15px;
+
+background:#ff8cbc;
+
+color:white;
+
+border:none;
+
+border-radius:15px;
+
+cursor:pointer;
+
+font-size:16px;
+
+}
+
+#maidList{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:20px;
+
+margin-top:30px;
+
+}
+
+.maidCard{
+
+background:white;
+
+width:250px;
+
+padding:20px;
+
+border-radius:20px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.maidCard button{
+
+background:#ff8cbc;
+
+color:white;
+
+border:none;
+
+padding:10px;
+
+border-radius:10px;
+
+cursor:pointer;
+
+}
